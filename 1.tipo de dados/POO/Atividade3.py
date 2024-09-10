@@ -28,5 +28,19 @@ class Endereco:
         self.cep = cep
         self.cidade = cidade
 
+    def __str__(self) -> str:
+        return(
+            f"\nLogradouro: {self.logradouro}"
+            f"\nNúmero: {self.numero}"
+            f"\nComplemento: {self.complemento}"
+            f"\nCep: {self.cep}"
+            f"\nCidade: {self.cidade}"
+
+        )    
+
+        
+
+
+
    
    
