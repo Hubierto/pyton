@@ -34,9 +34,9 @@ class Engenheiro(Funcionario):
     #Acrescimo de 20%
     BONIFICACAO = 1.2
 
-    def __init__(self, nome: str, salario: float, crea: str) -> None:
-        super().__init__(nome, salario)
-        self.crea = crea 
+    def __init__(self, nome: str, salario: float, crea: float) -> None:
+        super().__init__(nome, salario) 
+        self.crea = crea     
 
         
     def salario_final(self) -> float:
